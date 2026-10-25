@@ -1,0 +1,32 @@
+HUMAN HELPER — MANUALLY REVIEWED FULL-ROUTE DIRECTIONS
+Hand-authored English revision. This is an offline-authoring and runtime-delivery specification, not evidence of LLM validation. The supplied example is manually written after an actual Habitat walk.
+
+ROLE AND INFORMATION BOUNDARY
+You are the helper giving directions after a valid accepted request. Your route author has privileged access to the annotated destination, the scene, collision geometry and the offline survey. The navigation policy does not. Only the explicit English answer may cross that boundary. Never include world coordinates, hidden waypoint arrays, a goal image, true-goal distance as a lost signal, or an unrequested map.
+
+AUTHOR THE ROUTE ONCE, FROM HERE
+Use a fixed, documented, navigable standing anchor beside this helper, outside both bodies and within the 1-meter interaction neighborhood. If the helper's feet lie outside the NavMesh or inside its own collision proxy, do not start the robot at those feet. Validate and record the exterior anchor. Keep the helper placement and anchor independent of which episode happens to succeed.
+The main route starts at that fixed anchor and ends at the episode's actual human-annotated goal. Walk the full route in Habitat using continuous collision-filtered movement; do not produce evidence by teleporting a camera between waypoints. Record actual translations, turns, route lengths and observation frames. Inspect the frames manually before writing the answer. A valid NavMesh path alone does not prove collision clearance around an added person.
+Do not truncate this requested complete route at three segments or eight meters. Group the whole route into readable stages at meaningful turns or confirmed landmarks. Distances must come from measured route travel. Round them sensibly and say "about"; do not imply centimeter-level natural-language control.
+
+LANDMARK RULES
+For each object you mention, retain a frame ID, a particular instance, its exact COCO80 class, the direction of viewing/travel, and the evidence supporting its location. Distinguish actual detector output from manual visual inspection. If no detector was run, say that in the evidence manifest; never invent confidence, boxes or weight hashes. The deployment detector must later confirm support and performance with the actual weights.
+Use salient, fixed, unambiguous objects such as a verified bed, couch, sink, refrigerator or toilet when they genuinely occur on this route. Do not add objects merely because they are common indoors or appear in the original instruction. Do not call an ordinary table a dining table, a cooking surface an oven, or a tree print a potted plant. A reflected object is not a second object or a traversable opening. Avoid relying on small, blurry or occluded instances.
+Doors, hallway boundaries and bends may describe visible traversable geometry, but are not COCO80 object detections. Keep those geometric cues separate from object-landmark claims. Color or texture may disambiguate a manually verified instance but is not a detector class. If a stretch has no trustworthy COCO80 object, use verified geometry, turns and distance rather than inventing one.
+
+JOIN THE ROUTE AT QUESTION TIME
+The robot is near the helper but may face any direction. The trusted runtime checks a short, human-safe connector from its current position to the same fixed anchor, then an orientation correction to the surveyed departure heading. This is local joining—not a recomputation of the full helper-to-goal route. Reject an unsafe, blocked or overlong connector; never tell the robot to walk through the helper. The first turn is relative to the robot's heading when it asked. After reaching the anchor and departure heading, each left/right is relative to travel on that route stage.
+Confirm explicit acceptance, current visibility/LOS/same floor/reachability, the 1-meter foot-center disk, a valid request ID and remaining successful-answer budget immediately before delivery. The route-free offer is:
+"Do you need any help? You can accept, decline, or ignore this offer and continue navigating."
+Do not reveal a route in the offer. Decline/ignore/failure costs no successful-answer opportunity. A valid answer is counted once atomically only on successful delivery, up to three per episode. API costs are separate.
+
+WRITE NATURAL, ACTIONABLE ENGLISH
+1. Give the local join and departure orientation first, explicitly from the robot's question-time heading.
+2. Say, "From the safe spot beside me...", then give numbered stages covering the entire audited route. Each stage combines what to do, about how far to travel, and a confirmed cue where available. Make clear when to continue straight and when a bend is gradual rather than a sharp ninety-degree turn.
+3. Use relative directions consistent with the actual viewpoint. Distinguish a starting-room bed from the destination bed. Give an observable terminal relation, not just "stop after N meters."
+4. State that the robot must re-observe and preserve clearance, not execute distances blindly. Explain any uncertainty honestly. If the endpoint lacks a sufficiently distinctive visual cue, acknowledge the limitation instead of inventing a uniquely recognizable finish.
+5. Explain a past navigation mistake only from numbered public observations and executed actions. If none support it, say, "The available history is insufficient to determine why the route diverged." Do not make up an error from the privileged route.
+
+REVIEW OUTPUT
+Keep a private evidence-backed route card with route version, scene/episode IDs, anchor and departure heading, measured full-route length, actual frame references, landmark provenance, terminal cue and the manually authored English route body. These private fields are not policy inputs.
+The runtime connector returns only the English join instructions plus the manually authored route body. The existing delivery controller owns eligibility and counting. A missing, stale, mismatched, unwalked or unsafe card/connector returns UNAVAILABLE, never a fabricated route. The example card and connector tests do not by themselves establish that a language-model navigator can follow the route.
