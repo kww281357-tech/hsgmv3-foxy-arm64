@@ -1,0 +1,37 @@
+MPFB expression adult v2 — source/license manifest — 2026-10-24
+
+Official generator: MakeHuman Community MPFB 2, declared version 2.0.18.
+https://github.com/makehumancommunity/mpfb2
+https://github.com/makehumancommunity/mpfb2/blob/master/LICENSE.md
+Code GPL-3.0-or-later; bundled model/texture/rig/target data CC0-1.0.
+Output files do not contain generator code and are unrestricted under project's asset terms.
+Generator source was downloaded for this build; it is not bundled into runtime ZIPs.
+
+Official MakeHuman system assets, CC0:
+https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html
+https://files.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip
+Specific components: young_caucasian_female2 skin texture, high-poly eyes,
+eyebrow010, eyelashes02, tongue01, teeth_base, ponytail01,
+female_elegantsuit01 and shoes03. Source MHCLO/MHMAT files state CC0.
+The mixed default ancestry macro was retained; skin file name is source provenance,
+not an asserted ethnic identity of this fictional character.
+
+Faceunits01 by Mika Suominen, each manifest entry CC0:
+https://static.makehumancommunity.org/assets/assetpacks/faceunits01.html
+https://files2.makehumancommunity.org/functional/faceunits01.zip
+https://static.makehumancommunity.org/assets/assetpacks.html
+Official functional asset pack has ARKit-compatible named morph targets.
+ARKit-compatible naming does not mean Apple software or face tracking is included.
+
+Our adaptations: expression weights, consistent named-key propagation to dependent
+facial meshes, relaxed arm pose, smooth/subdivision setup, studio renders, static
+mesh export, Habitat template and Chinese usage documentation.
+Our new scripts/configuration and derived asset contributions: CC0-1.0, as-is.
+No paid software/model APIs, no downloaded private person's likeness or photos.
+No claim of from-scratch sculpting or original ownership of upstream assets.
+
+V4 additions: procedural normal/roughness maps, hair detail strands, UV-aligned button meshes,
+material/pose adaptation and reusable build/export/check code are new CC0-1.0 contributions.
+All retain the prior MakeHuman/MPFB underlying asset attribution and license boundaries.
+
+V5 additions: authored adapter, restrained albedo/PBR tuning, fine tapered hair geometry and neutral eyelid weights. New contributions CC0-1.0. Underlying MPFB code GPL; assets CC0. No generative model, private likeness, or third-party character download added.
