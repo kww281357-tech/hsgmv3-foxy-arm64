@@ -1,0 +1,33 @@
+{
+  "render_asset": "adult_cry.glb",
+  "up": [
+    0,
+    1,
+    0
+  ],
+  "front": [
+    0,
+    0,
+    -1
+  ],
+  "units_to_meters": 1,
+  "scale": [
+    1,
+    1,
+    1
+  ],
+  "COM": [
+    0,
+    0,
+    0
+  ],
+  "is_collidable": false,
+  "shader_type": "material",
+  "user_defined": {
+    "category": "person",
+    "age_group": "adult",
+    "expression": "cry",
+    "license": "CC0-1.0",
+    "integration_status": "not yet Habitat runtime tested"
+  }
+}
