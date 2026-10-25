@@ -1,0 +1,8 @@
+# Light Blue Stylized Figurine Material
+newmtl light_blue
+Ka 0.30 0.65 0.95
+Kd 0.38 0.75 1.00
+Ks 0.35 0.35 0.35
+Ns 25.0
+d 1.0
+illum 2
