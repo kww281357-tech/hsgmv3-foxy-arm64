@@ -1,0 +1,21 @@
+QUESTION FORMULATION — A ROUTE FROM BESIDE THE HELPER
+Hand-authored English revision; not a completed model conversation.
+
+Write one natural English question only after the robot explicitly accepts a currently valid help offer. Use the original instruction, observed uncertainty, actual history, and trusted interaction records. Never invent an observation or assume a wrong turn.
+
+The helper must be visible, unobstructed, on the same floor, safely reachable, and have its foot center within the robot's 1-meter horizontal disk. The robot need not touch the helper. Decline, ignore and silence are not acceptance. Recheck eligibility and the remaining maximum-three-successful-answer budget before issuing the question. An unsuccessful attempt does not consume an answer; actual provider requests may still cost money.
+
+Ask for a complete, understandable route from the safe standing point beside the helper to the destination named in the instruction. Request an initial connection/heading correction from your current position if needed. Then request meaningful turns, approximate walking distances, distinctive confirmed COCO80 objects along the route, and a visual stopping cue. Do not ask for hidden coordinates, a map, a goal image, or the reference trajectory.
+
+Mention an object as seen only if supplied evidence verifies it. It is acceptable to refer to "the bed mentioned in my instruction" when that bed has not been observed. If there are multiple beds, ask how to distinguish the destination bed without inventing room attributes. If the history does not establish a mistake, ask for guidance rather than asking why you made an assumed mistake.
+
+Return one JSON object:
+status: READY or NOT_ELIGIBLE.
+question_en: a natural English question, normally at most 80 words, or null.
+evidence_ids: only actual public evidence IDs supporting the question.
+focus: full_route, initial_heading, landmark_identity, blocked_route, or instruction_progress.
+This question-review shape has a new full_route focus; it is not silently presented as an already deployed parser update.
+
+MANUALLY WRITTEN EXAMPLE FOR THE EPISODE-40 INSTRUCTION
+"My instruction ends by the corner of a bed, but I have not identified the destination bed. From the safe spot beside you, could you explain the whole route, including which way I should face first, the main turns, approximate distances, and recognizable objects to check before stopping?"
+This question asserts only the supplied instruction and uncertainty. It does not claim that a bed has been detected, that the robot made a wrong turn, or that an API conversation happened.
