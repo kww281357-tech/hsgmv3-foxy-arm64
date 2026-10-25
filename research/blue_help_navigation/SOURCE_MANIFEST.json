@@ -1,0 +1,443 @@
+{
+  "version": "0.4.1",
+  "snapshot_utc": "2026-10-25T12:17:00Z",
+  "publication_target": "research/blue_help_navigation",
+  "scope": "source-only isolated research; default existing GAME v7; explicit blue reference; no robot runtime connection",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 269,
+      "sha256": "9b089bb463f48f31f94837c9e03839f41cec52bfb9a6763453031d58ea6fa18b"
+    },
+    {
+      "path": "Makefile",
+      "bytes": 186,
+      "sha256": "cc261b9cee607f36605507c4b1918a7b17fb8f4a0862896190b76e291963f5f4"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 2397,
+      "sha256": "d1c6bb0226c35a04f2c5bc4868c3fc572b2961edbc67268afb157daac1adddf3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7794,
+      "sha256": "d42f5384d676f4bf557b0afbff76b7c6c2a05a518522bab45bf4d562598f233c"
+    },
+    {
+      "path": "blue_help/__init__.py",
+      "bytes": 107,
+      "sha256": "233f3066df5b7bf771325bad52cf3bf04b0933091e6595c5ae66734d23ff7699"
+    },
+    {
+      "path": "blue_help/__main__.py",
+      "bytes": 1762,
+      "sha256": "f79715548b74a738c7dd11df1fba471a31c76049af606b729415beedf02e6053"
+    },
+    {
+      "path": "blue_help/assets/blue_dummy/light_blue_human.mtl",
+      "bytes": 134,
+      "sha256": "8118150ac2a47ca2e50f4df17e2d5519e1d40910a88999cc4af8082231d95ccb"
+    },
+    {
+      "path": "blue_help/assets/blue_dummy/light_blue_human.obj",
+      "bytes": 16421,
+      "sha256": "fc1eb7ac2fe38cf525e7e5d759fefd4b108f2ac299c15a7cb5ec163c22b1d8a5"
+    },
+    {
+      "path": "blue_help/assets/blue_dummy/light_blue_human.object_config.json",
+      "bytes": 143,
+      "sha256": "db1b704b84ab2c055270a3f6778892f2eecd061adcf8f6b30aeaba97ba0841ac"
+    },
+    {
+      "path": "blue_help/collision.py",
+      "bytes": 3304,
+      "sha256": "caf6772526ba9efc56eb8c88e577ba62a70023b7f2aae084f31395cf7c4287b6"
+    },
+    {
+      "path": "blue_help/contracts.py",
+      "bytes": 1493,
+      "sha256": "35d4360315129b6a5476e970dc94b99a07f4964a7e43b598165f2a4064d18838"
+    },
+    {
+      "path": "blue_help/data.py",
+      "bytes": 4669,
+      "sha256": "a7879f1fdfadbbe827caa6c12f33b7c5268f7f86cb87f3a26d19cd955da69f53"
+    },
+    {
+      "path": "blue_help/debug_view.py",
+      "bytes": 6355,
+      "sha256": "3901874ca80ec50cb0209e4599a290f63423ad5775309bc4a3c6f9c4209ffac2"
+    },
+    {
+      "path": "blue_help/evaluation.py",
+      "bytes": 17211,
+      "sha256": "3d57fc1e0de296b04efa2dd50a4ca1087a4692299f3152241f6d001654b7122e"
+    },
+    {
+      "path": "blue_help/habitat_adapter.py",
+      "bytes": 37294,
+      "sha256": "13bfeca73210ea242cc649829c624560bbbb481ea56980e1866ae961ae6629aa"
+    },
+    {
+      "path": "blue_help/habitat_metrics.py",
+      "bytes": 928,
+      "sha256": "976b965700ea1e1d659928a1570a2a70461c8a817f45fdb7768142e47edab7ce"
+    },
+    {
+      "path": "blue_help/harness.py",
+      "bytes": 4076,
+      "sha256": "8b628eaa6f4f2758b92fb3fb0b667602d409a7f67d6f2b297f56748a525253d4"
+    },
+    {
+      "path": "blue_help/help_offer.py",
+      "bytes": 11129,
+      "sha256": "c2dcbea52ded4cac6f21297228d9531770cc00f9012f92cb01050f92ef6e8791"
+    },
+    {
+      "path": "blue_help/helper_assets.py",
+      "bytes": 7737,
+      "sha256": "092cd6f250341d9183635ea72d460151adc1db834da7debda6b494405a3f94a0"
+    },
+    {
+      "path": "blue_help/interaction_range.py",
+      "bytes": 6586,
+      "sha256": "6b39875e91696a3301b0cad1c72413d177c53f2f475b6ea8ce655746718e529e"
+    },
+    {
+      "path": "blue_help/lost.py",
+      "bytes": 7477,
+      "sha256": "f01376778015eeb9368596c6e7a46cf8c7fccfc4e1e623ae39306e72ac0474f0"
+    },
+    {
+      "path": "blue_help/manual_route/__init__.py",
+      "bytes": 653,
+      "sha256": "66f0bfb4afa4155e0bfc049be7657c551f15e8181b3c96a718cdb32961eaa8c8"
+    },
+    {
+      "path": "blue_help/manual_route/bridge.py",
+      "bytes": 15791,
+      "sha256": "b766158e1bd93cf5319094a1b969957bcf6d70f6fd9e1a231026011780992f92"
+    },
+    {
+      "path": "blue_help/manual_route/route_card.py",
+      "bytes": 19931,
+      "sha256": "f260abd43f46cec74ae97dea0e9bde40935181105383ddc10069d1dd9a088a15"
+    },
+    {
+      "path": "blue_help/manual_route/survey.py",
+      "bytes": 18165,
+      "sha256": "785f2963ae8f47ccec1152f4b33901ac08faa01470a052d478c2321379de7122"
+    },
+    {
+      "path": "blue_help/oracle.py",
+      "bytes": 15098,
+      "sha256": "ddad8d9c4024b1bccc248c8a74100d6af7c9b69b1db01189bfa6d16890a38a6e"
+    },
+    {
+      "path": "blue_help/policy.py",
+      "bytes": 10156,
+      "sha256": "2a9622bdc5cdbe8933ab97f6d40fc1c486afc2e2d6598240883508de3c3fd5a3"
+    },
+    {
+      "path": "blue_help/preflight.py",
+      "bytes": 18348,
+      "sha256": "bf2cfb43270428cd752e4155de34ccddc683faf8cc508ca8a6013c3f382221c8"
+    },
+    {
+      "path": "blue_help/prompt_catalog.py",
+      "bytes": 590,
+      "sha256": "4a642d9ebdc84b75d19e1fd7127813d6229337edef9f892b37766ca2d5466fad"
+    },
+    {
+      "path": "blue_help/prompt_data/01_policy_en.txt",
+      "bytes": 5757,
+      "sha256": "7f309ad3b5d4b297e6209b5691432e5a2eccf72e1cafc1e7966a24cf7cfa1e96"
+    },
+    {
+      "path": "blue_help/prompt_data/02_question_en.txt",
+      "bytes": 2618,
+      "sha256": "9fdf65e8c532821b48f9f5bdc2fce1164943a19d49ed331d8d17476a4f17ed88"
+    },
+    {
+      "path": "blue_help/prompt_data/03_dummy_oracle_answer_en.txt",
+      "bytes": 6201,
+      "sha256": "86de13ef37677b25cef39bf0b18faaa622941b8bb79b7b29c150e1a2dd440129"
+    },
+    {
+      "path": "blue_help/providers/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "blue_help/providers/go_contract.py",
+      "bytes": 12052,
+      "sha256": "4ce60556a7d2190607f3f6a5f762dcd31f9620cde7b88f450bbbec5ef93e6952"
+    },
+    {
+      "path": "blue_help/providers/go_transport.py",
+      "bytes": 4940,
+      "sha256": "5298b17acd662a404a8525fca75acd7f5bd2b85befc868ec8acb810888ca60ee"
+    },
+    {
+      "path": "blue_help/review_media.py",
+      "bytes": 3075,
+      "sha256": "355a20821dc5784de1eb96d500492d1381bc7cb4ce2172f87863f267ec829839"
+    },
+    {
+      "path": "blue_help/runner.py",
+      "bytes": 10834,
+      "sha256": "1fb6330f6be499c179500b3f2466362855a8358aecd2171df6240642be73abd0"
+    },
+    {
+      "path": "blue_help/smoke.py",
+      "bytes": 8754,
+      "sha256": "9f9b7df709a52bd06d6ad747ca2100d6b7fbc3cd02cbf9ca844df5afee64c1b7"
+    },
+    {
+      "path": "blue_help/trial/__init__.py",
+      "bytes": 79,
+      "sha256": "970c4a4f9b25e4d849ad69c7405f4ce3c86c02843cee5f74aea4d1ab400b4751"
+    },
+    {
+      "path": "blue_help/trial/policy.py",
+      "bytes": 3555,
+      "sha256": "44557a158105a5902f881fbec420b3768e87d89bc6451b8fc555f805a9facf79"
+    },
+    {
+      "path": "blue_help/trial/probe.py",
+      "bytes": 3568,
+      "sha256": "3af2ed5ed24c9afcfb7aa071987400f631c9d251d0b75a7a45e145eee464691e"
+    },
+    {
+      "path": "blue_help/trial/run_trial.py",
+      "bytes": 10418,
+      "sha256": "020336dab1f61a5928d59cb0c0d278135136f779604afc35091bd9eaa4d7bbe0"
+    },
+    {
+      "path": "configs/config.review.json",
+      "bytes": 2119,
+      "sha256": "382ad2245cd1f86ee872c2977b9998d5dd88909d30e1903ad59aa6139f8dff17"
+    },
+    {
+      "path": "configs/demo20.paired.plan.json",
+      "bytes": 14824,
+      "sha256": "c894d7253af7179e2b4d848191c50440503fc819bf29963058c3ea95fde329e6"
+    },
+    {
+      "path": "docs/DATA_CONTRACT.md",
+      "bytes": 4555,
+      "sha256": "1db7c63a9c66f33749dffebeb34ff388368197d7af7611dd5ad46ce3976bf376"
+    },
+    {
+      "path": "docs/ENVIRONMENT_AND_RESTORE.md",
+      "bytes": 3443,
+      "sha256": "81cbf483539c85bf9699d8cd4349ec6e95b4053f3fb3d92f3cf0331ba52943f9"
+    },
+    {
+      "path": "docs/GAME_HELPER.md",
+      "bytes": 4298,
+      "sha256": "80c643dc33921b9532d46e268a882f19d15854ba137576c5478b1063e668387b"
+    },
+    {
+      "path": "docs/GITHUB_PROVENANCE.json",
+      "bytes": 8051,
+      "sha256": "f0723dfd5d42eff1b0b42f8fb9da73c42927257dddc97af4a25917214fe2ce87"
+    },
+    {
+      "path": "docs/SAFETY_AND_PRIVILEGE.md",
+      "bytes": 6254,
+      "sha256": "e8111b99421a281ec55f9c84b03f4eb3971cd50873694d0448f92894bfc3c82c"
+    },
+    {
+      "path": "docs/STATUS.md",
+      "bytes": 4811,
+      "sha256": "3698810b75c78558e0d5c710730ed1f367badb1beaae3ef24480d5ce7c88c688"
+    },
+    {
+      "path": "docs/VERIFICATION_SUMMARY.json",
+      "bytes": 1976,
+      "sha256": "866bf55f0392c819b5dad68391ff60b31398774d576fb9759f02bbefe22c5306"
+    },
+    {
+      "path": "docs/habitat-cpu-environment.yml",
+      "bytes": 243,
+      "sha256": "bd1feb9022f1f4e1c781875702840b4317eb141d14e29807d006e9ab6e6ea59e"
+    },
+    {
+      "path": "docs/habitat-cpu-explicit-linux-64.txt",
+      "bytes": 12806,
+      "sha256": "35a6057d18fb18cbeba912f5d02b43884e6ca39b29dcf9afbef737b815bc51e0"
+    },
+    {
+      "path": "examples/01_decline.json",
+      "bytes": 323,
+      "sha256": "3d7cbadb3ae6d9c349a2b4177a8e8e3a725e54d001150a5e759b1ac9ecf12c69"
+    },
+    {
+      "path": "examples/02_question.json",
+      "bytes": 413,
+      "sha256": "280cb555f462c304a2c82e063d91886fc01ceac94fc2a7aa25e846d8d4a7b929"
+    },
+    {
+      "path": "examples/03_answer.json",
+      "bytes": 865,
+      "sha256": "7e7051cc7f6073f31a7e084a67ae7dce8ae96f05c70eadc27a49c896a4941401"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 549,
+      "sha256": "aacae3985711bcf4da523ceae2d33d0522b57e84e6292708acb1fc19c0122d04"
+    },
+    {
+      "path": "requirements-cpu-tests.txt",
+      "bytes": 29,
+      "sha256": "5c9e2a35c13823db2e6f73e49ae0a13eb889beac175c84d54e9e313296ecbf00"
+    },
+    {
+      "path": "scripts/cpu_render_env.sh",
+      "bytes": 256,
+      "sha256": "4a00c0614183cd65240eed15116a6db063a3b55b6d5903dd03aa24955f2ad118"
+    },
+    {
+      "path": "scripts/verify_source.py",
+      "bytes": 1288,
+      "sha256": "1bb0958dc5ac8297a2d54fc320e96d9561917e92c4816ef32740f169e9c3aa78"
+    },
+    {
+      "path": "tests/test_card_bridge.py",
+      "bytes": 17189,
+      "sha256": "e0682a7704f8773f7b3263da709be2b4a8c92b0dea4941258d632f02f9ff257b"
+    },
+    {
+      "path": "tests/test_collision.py",
+      "bytes": 1765,
+      "sha256": "33a146f36d6bcc3535707c6669c4eb94ccc1fcb9bc7b2d3ffb8a2ff5d51101cd"
+    },
+    {
+      "path": "tests/test_debug_view.py",
+      "bytes": 2590,
+      "sha256": "163b541914e7d148be9eebcf5eb0965c58f54293fc5def7e9cf783a121e62218"
+    },
+    {
+      "path": "tests/test_english.py",
+      "bytes": 4557,
+      "sha256": "9003ecba2a06f3e557739d8d7c1b77bfe5903911983750a432ddecbb66c8f57c"
+    },
+    {
+      "path": "tests/test_evaluation.py",
+      "bytes": 14654,
+      "sha256": "eab8a2aaac6c6426bbfc27eec182a146fb38495a77675a075e7431dfa5ab76dc"
+    },
+    {
+      "path": "tests/test_game_visibility.py",
+      "bytes": 2141,
+      "sha256": "ad6183badbaf3fb0b5930ee63accecc357a08f7938d59f76d157f2ae7990e394"
+    },
+    {
+      "path": "tests/test_habitat_adapter.py",
+      "bytes": 19704,
+      "sha256": "9db309f2539ebfb3854ae5efc2a18e527b3a45f9c0e1a7c51077e2aee3760c12"
+    },
+    {
+      "path": "tests/test_harness.py",
+      "bytes": 2746,
+      "sha256": "64600c32bee871ce119eb4e9d4ca2ff30c47392e6e36eab21ca0e6cc2d772500"
+    },
+    {
+      "path": "tests/test_helper_assets.py",
+      "bytes": 9384,
+      "sha256": "ff4901bf098f19447043709f831b7c8abeb5551deb738bf060fd44dd44349f57"
+    },
+    {
+      "path": "tests/test_lost.py",
+      "bytes": 7744,
+      "sha256": "1cc207be09b4e5f34f710eed3b78ceab63e068067a7e4dcd1e967d3083be40f5"
+    },
+    {
+      "path": "tests/test_offer.py",
+      "bytes": 10050,
+      "sha256": "8186faa82b6ee84b4dfe0ccbc315d8d7eb87329fa964e7bd432755dbe3b22442"
+    },
+    {
+      "path": "tests/test_oracle.py",
+      "bytes": 13345,
+      "sha256": "7ce66ecb3aadde790af7093dafae6aeccc97d87af5a900457e32b76c03f43658"
+    },
+    {
+      "path": "tests/test_policy.py",
+      "bytes": 5722,
+      "sha256": "ab9e465f7b4b008434fbfd5e29ca5d793bf39c3a4ec81560b904674c5629524e"
+    },
+    {
+      "path": "tests/test_policy_history.py",
+      "bytes": 1441,
+      "sha256": "5a0cd70dbb2924c13ec02e7533f1e44d3047e7795e7d853052a2f4f54f73fce3"
+    },
+    {
+      "path": "tests/test_portable_cli.py",
+      "bytes": 4714,
+      "sha256": "eae7f77e0382ca85cc3dd8b6d4eedec5643285d2aafde3dd6cb5318857c00be2"
+    },
+    {
+      "path": "tests/test_preflight.py",
+      "bytes": 14943,
+      "sha256": "95f2a394244ba8b9d92dbec6ae3331d16a27688a5fde249cc69d33287102a8f9"
+    },
+    {
+      "path": "tests/test_range.py",
+      "bytes": 5342,
+      "sha256": "f225d12a0907c23b962196ab901064af7bf202fe7bab0908edf4083abdb9cf6f"
+    },
+    {
+      "path": "tests/test_route_card.py",
+      "bytes": 13818,
+      "sha256": "6841a29fa8194c4e270f40f0ae0f88f3d1575e82fe7a78888eb559f0bde560b4"
+    },
+    {
+      "path": "tests/test_runner.py",
+      "bytes": 7502,
+      "sha256": "c397f631aa9c742aebff2944c507323f5b51dd3b89432ea6a7bfa94580d871cf"
+    },
+    {
+      "path": "tests/test_sliding_profile.py",
+      "bytes": 2510,
+      "sha256": "067f79770e95209625239b1bdb198a43716022b9c66e3d04c47256ff5b1fb12c"
+    },
+    {
+      "path": "tests/test_smoke.py",
+      "bytes": 1790,
+      "sha256": "81c6ecc2f593c0b022b9034e6d518a1e7ef275653e1351557cef2a026db90ddd"
+    },
+    {
+      "path": "tests/test_survey_cli.py",
+      "bytes": 14196,
+      "sha256": "66c81dfc34c152cb7983886d2d4d67fec2c4960ee7bcc80994062c002378ccd7"
+    },
+    {
+      "path": "tests/test_transport.py",
+      "bytes": 3103,
+      "sha256": "891fce83e252900bff7f568f33b64fa00bfa255bed5dd24db8b42a0f63478d82"
+    },
+    {
+      "path": "tests/test_trial_controller.py",
+      "bytes": 9075,
+      "sha256": "d052d659ec1c37bc3eec0fd6361e59ccfb50afad544669b9cdd62853b79f710e"
+    },
+    {
+      "path": "third_party/BLUE_DUMMY_LICENSE",
+      "bytes": 1067,
+      "sha256": "d5570b068c2b3a17845d88e569c496dd4a1c2f021d0a2b834beb7c17e694a014"
+    },
+    {
+      "path": "third_party/GAME_CHARACTER_SOURCE_LICENSE.txt",
+      "bytes": 2497,
+      "sha256": "5c3880044eba910d94627cf5c201b54d44dbb86b18a874720fafeaa36939aead"
+    },
+    {
+      "path": "third_party/HSGMV3_LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  ]
+}

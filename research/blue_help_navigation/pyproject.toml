@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blue-help-navigation"
+version = "0.4.1"
+description = "Isolated R2RCE research: optional human help, grounded manual route cards, and bounded visual-policy trials"
+requires-python = ">=3.9"
+dependencies = ["numpy==1.26.4", "Pillow==11.3.0"]
+
+[project.scripts]
+blue-help = "blue_help.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["blue_help*"]
+
+[tool.setuptools.package-data]
+blue_help = ["prompt_data/*.txt", "assets/blue_dummy/*"]
