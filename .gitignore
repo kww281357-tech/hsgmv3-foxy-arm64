@@ -1,0 +1,45 @@
+# Local data, weights and experiment artifacts (including symlinks)
+/data
+/ckpt
+/results
+/outputs
+/logs
+/analysis
+/scratch
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.ts
+*.glb
+*.navmesh
+*.mp4
+*.npy
+*.npz
+*.part
+*.partial*
+*.bak*
+*.log
+*.jsonl
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+config/*.local.*
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.idea/
+.vscode/
+.DS_Store
+

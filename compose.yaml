@@ -1,0 +1,20 @@
+services:
+  monitor:
+    image: hsgmv3:foxy-arm64
+    platform: linux/arm64
+    build:
+      context: .
+    environment:
+      ROS_DOMAIN_ID: "0"
+      ROS_LOCALHOST_ONLY: "1"
+      GO2_INTERFACE: lo
+    read_only: true
+    tmpfs:
+      - /tmp:size=32m,mode=1777
+      - /home/hsgm/.ros:size=16m,uid=10001,gid=10001
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 1g
+    pids_limit: 128
+    init: true
+    # No robot LAN or host ports exposed by default.
