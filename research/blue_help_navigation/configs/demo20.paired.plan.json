@@ -1,0 +1,642 @@
+{
+  "schema_version": 1,
+  "status": "plan_only_not_executed",
+  "frozen_episode_ids": [
+    40,
+    41,
+    52,
+    53,
+    237,
+    249,
+    254,
+    301,
+    387,
+    630,
+    712,
+    715,
+    744,
+    822,
+    894,
+    1334,
+    1354,
+    1612,
+    1720,
+    1755
+  ],
+  "seed": 42,
+  "conditions": [
+    "no_ask",
+    "max3_ask"
+  ],
+  "provider_id": null,
+  "total_runs": 40,
+  "concurrency": 1,
+  "requested_batch_size": 2,
+  "batch_size_unit": "episodes",
+  "paired_controls": "Same episode, seed, scene and dummy placements in both conditions; only ask budget differs.",
+  "batches": [
+    {
+      "batch_index": 0,
+      "episode_ids": [
+        "40",
+        "41"
+      ],
+      "run_ids": [
+        "40-seed42-no_ask",
+        "40-seed42-max3_ask",
+        "41-seed42-no_ask",
+        "41-seed42-max3_ask"
+      ],
+      "size": 2,
+      "batch_size_unit": "episodes",
+      "episode_count": 2,
+      "run_count": 4,
+      "concurrency": 1,
+      "status": "pending_not_executed"
+    },
+    {
+      "batch_index": 1,
+      "episode_ids": [
+        "52",
+        "53"
+      ],
+      "run_ids": [
+        "52-seed42-no_ask",
+        "52-seed42-max3_ask",
+        "53-seed42-no_ask",
+        "53-seed42-max3_ask"
+      ],
+      "size": 2,
+      "batch_size_unit": "episodes",
+      "episode_count": 2,
+      "run_count": 4,
+      "concurrency": 1,
+      "status": "pending_not_executed"
+    },
+    {
+      "batch_index": 2,
+      "episode_ids": [
+        "237",
+        "249"
+      ],
+      "run_ids": [
+        "237-seed42-no_ask",
+        "237-seed42-max3_ask",
+        "249-seed42-no_ask",
+        "249-seed42-max3_ask"
+      ],
+      "size": 2,
+      "batch_size_unit": "episodes",
+      "episode_count": 2,
+      "run_count": 4,
+      "concurrency": 1,
+      "status": "pending_not_executed"
+    },
+    {
+      "batch_index": 3,
+      "episode_ids": [
+        "254",
+        "301"
+      ],
+      "run_ids": [
+        "254-seed42-no_ask",
+        "254-seed42-max3_ask",
+        "301-seed42-no_ask",
+        "301-seed42-max3_ask"
+      ],
+      "size": 2,
+      "batch_size_unit": "episodes",
+      "episode_count": 2,
+      "run_count": 4,
+      "concurrency": 1,
+      "status": "pending_not_executed"
+    },
+    {
+      "batch_index": 4,
+      "episode_ids": [
+        "387",
+        "630"
+      ],
+      "run_ids": [
+        "387-seed42-no_ask",
+        "387-seed42-max3_ask",
+        "630-seed42-no_ask",
+        "630-seed42-max3_ask"
+      ],
+      "size": 2,
+      "batch_size_unit": "episodes",
+      "episode_count": 2,
+      "run_count": 4,
+      "concurrency": 1,
+      "status": "pending_not_executed"
+    },
+    {
+      "batch_index": 5,
+      "episode_ids": [
+        "712",
+        "715"
+      ],
+      "run_ids": [
+        "712-seed42-no_ask",
+        "712-seed42-max3_ask",
+        "715-seed42-no_ask",
+        "715-seed42-max3_ask"
+      ],
+      "size": 2,
+      "batch_size_unit": "episodes",
+      "episode_count": 2,
+      "run_count": 4,
+      "concurrency": 1,
+      "status": "pending_not_executed"
+    },
+    {
+      "batch_index": 6,
+      "episode_ids": [
+        "744",
+        "822"
+      ],
+      "run_ids": [
+        "744-seed42-no_ask",
+        "744-seed42-max3_ask",
+        "822-seed42-no_ask",
+        "822-seed42-max3_ask"
+      ],
+      "size": 2,
+      "batch_size_unit": "episodes",
+      "episode_count": 2,
+      "run_count": 4,
+      "concurrency": 1,
+      "status": "pending_not_executed"
+    },
+    {
+      "batch_index": 7,
+      "episode_ids": [
+        "894",
+        "1334"
+      ],
+      "run_ids": [
+        "894-seed42-no_ask",
+        "894-seed42-max3_ask",
+        "1334-seed42-no_ask",
+        "1334-seed42-max3_ask"
+      ],
+      "size": 2,
+      "batch_size_unit": "episodes",
+      "episode_count": 2,
+      "run_count": 4,
+      "concurrency": 1,
+      "status": "pending_not_executed"
+    },
+    {
+      "batch_index": 8,
+      "episode_ids": [
+        "1354",
+        "1612"
+      ],
+      "run_ids": [
+        "1354-seed42-no_ask",
+        "1354-seed42-max3_ask",
+        "1612-seed42-no_ask",
+        "1612-seed42-max3_ask"
+      ],
+      "size": 2,
+      "batch_size_unit": "episodes",
+      "episode_count": 2,
+      "run_count": 4,
+      "concurrency": 1,
+      "status": "pending_not_executed"
+    },
+    {
+      "batch_index": 9,
+      "episode_ids": [
+        "1720",
+        "1755"
+      ],
+      "run_ids": [
+        "1720-seed42-no_ask",
+        "1720-seed42-max3_ask",
+        "1755-seed42-no_ask",
+        "1755-seed42-max3_ask"
+      ],
+      "size": 2,
+      "batch_size_unit": "episodes",
+      "episode_count": 2,
+      "run_count": 4,
+      "concurrency": 1,
+      "status": "pending_not_executed"
+    }
+  ],
+  "runs": [
+    {
+      "run_index": 0,
+      "run_id": "40-seed42-no_ask",
+      "episode_id": "40",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 1,
+      "run_id": "40-seed42-max3_ask",
+      "episode_id": "40",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 2,
+      "run_id": "41-seed42-no_ask",
+      "episode_id": "41",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 3,
+      "run_id": "41-seed42-max3_ask",
+      "episode_id": "41",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 4,
+      "run_id": "52-seed42-no_ask",
+      "episode_id": "52",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 5,
+      "run_id": "52-seed42-max3_ask",
+      "episode_id": "52",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 6,
+      "run_id": "53-seed42-no_ask",
+      "episode_id": "53",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 7,
+      "run_id": "53-seed42-max3_ask",
+      "episode_id": "53",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 8,
+      "run_id": "237-seed42-no_ask",
+      "episode_id": "237",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 9,
+      "run_id": "237-seed42-max3_ask",
+      "episode_id": "237",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 10,
+      "run_id": "249-seed42-no_ask",
+      "episode_id": "249",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 11,
+      "run_id": "249-seed42-max3_ask",
+      "episode_id": "249",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 12,
+      "run_id": "254-seed42-no_ask",
+      "episode_id": "254",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 13,
+      "run_id": "254-seed42-max3_ask",
+      "episode_id": "254",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 14,
+      "run_id": "301-seed42-no_ask",
+      "episode_id": "301",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 15,
+      "run_id": "301-seed42-max3_ask",
+      "episode_id": "301",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 16,
+      "run_id": "387-seed42-no_ask",
+      "episode_id": "387",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 17,
+      "run_id": "387-seed42-max3_ask",
+      "episode_id": "387",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 18,
+      "run_id": "630-seed42-no_ask",
+      "episode_id": "630",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 19,
+      "run_id": "630-seed42-max3_ask",
+      "episode_id": "630",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 20,
+      "run_id": "712-seed42-no_ask",
+      "episode_id": "712",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 21,
+      "run_id": "712-seed42-max3_ask",
+      "episode_id": "712",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 22,
+      "run_id": "715-seed42-no_ask",
+      "episode_id": "715",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 23,
+      "run_id": "715-seed42-max3_ask",
+      "episode_id": "715",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 24,
+      "run_id": "744-seed42-no_ask",
+      "episode_id": "744",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 25,
+      "run_id": "744-seed42-max3_ask",
+      "episode_id": "744",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 26,
+      "run_id": "822-seed42-no_ask",
+      "episode_id": "822",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 27,
+      "run_id": "822-seed42-max3_ask",
+      "episode_id": "822",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 28,
+      "run_id": "894-seed42-no_ask",
+      "episode_id": "894",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 29,
+      "run_id": "894-seed42-max3_ask",
+      "episode_id": "894",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 30,
+      "run_id": "1334-seed42-no_ask",
+      "episode_id": "1334",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 31,
+      "run_id": "1334-seed42-max3_ask",
+      "episode_id": "1334",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 32,
+      "run_id": "1354-seed42-no_ask",
+      "episode_id": "1354",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 33,
+      "run_id": "1354-seed42-max3_ask",
+      "episode_id": "1354",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 34,
+      "run_id": "1612-seed42-no_ask",
+      "episode_id": "1612",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 35,
+      "run_id": "1612-seed42-max3_ask",
+      "episode_id": "1612",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 36,
+      "run_id": "1720-seed42-no_ask",
+      "episode_id": "1720",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 37,
+      "run_id": "1720-seed42-max3_ask",
+      "episode_id": "1720",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 38,
+      "run_id": "1755-seed42-no_ask",
+      "episode_id": "1755",
+      "seed": 42,
+      "condition": "no_ask",
+      "max_questions": 0,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    },
+    {
+      "run_index": 39,
+      "run_id": "1755-seed42-max3_ask",
+      "episode_id": "1755",
+      "seed": 42,
+      "condition": "max3_ask",
+      "max_questions": 3,
+      "provider_id": null,
+      "status": "pending_not_executed"
+    }
+  ],
+  "four_group_comparison": {
+    "status": "pending_user_interpretation_not_scheduled",
+    "provider_count": 2,
+    "condition_count": 2,
+    "group_count": 4,
+    "episodes_per_group": 20,
+    "planned_runs": 80,
+    "selected_providers": null,
+    "automatic_execution": false,
+    "note": "80 means TWO providers x TWO conditions x20 episodes, not four providers. This separate expansion is pending and is not part of the scheduled single-provider40 manifest."
+  }
+}
