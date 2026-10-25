@@ -1,0 +1,8 @@
+{
+  "status": "READY",
+  "question_en": "I am uncertain which passage continues toward the instructed destination. From the safe standing point beside you, can you describe the full route, with turns, approximate distances and objects you have actually verified? Please first tell me how to join that point from my current heading.",
+  "evidence_ids": [
+    "SYNTHETIC_TWO_OPENINGS"
+  ],
+  "focus": "next_turn"
+}

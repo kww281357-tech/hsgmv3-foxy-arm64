@@ -1,0 +1,13 @@
+{
+  "status": "ANSWER",
+  "answer_en": "SYNTHETIC TEST ONLY, not a route in the real scene. You are already at the safe route-start point beside me. From the direction you faced when you asked, turn right about 90 degrees. Then follow the clear passage for about 2 meters, turn left and continue about 2 meters. Stop at the marked test area. Reobserve at each bend; do not enter a blocked passage.",
+  "reference_frame": "vehicle_pose_at_question",
+  "question_step_id": "SYNTHETIC_Q7",
+  "landmark_evidence_ids": [],
+  "mistake_explanation": "The available history is insufficient to determine why the route diverged.",
+  "mistake_evidence_ids": [],
+  "scope": "local_segment_only",
+  "needs_observation_before_next_segment": true,
+  "route_origin": "fixed safe helper-side anchor",
+  "scene_evidence_status": "invented unit-test geometry, never scene guidance"
+}
