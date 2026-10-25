@@ -80,7 +80,7 @@ class ContradictionBoundaryTests(unittest.TestCase):
         result, error = check_route_contradiction(contradiction('straight_path', cid='P1.C2', steps=[18],
             expected='Walk straight', observed='The path bent right.'), checks, ledger)
         self.assertIsNone(error)
-        self.assertEqual(result['recovery_constraint'], constraint(4, 17, 'P1.C2') | {'cited_steps': [18]})
+        self.assertEqual(result['recovery_constraint'], {**constraint(4, 17, 'P1.C2'), 'cited_steps': [18]})
 
     def test_turn_cutoff_owns_the_complete_physical_block(self):
         ledger = [record(4, 'turn', motion=0., yaw=.4), record(5, 'turn', motion=0., yaw=.4)]
@@ -126,7 +126,7 @@ class ContradictionBoundaryTests(unittest.TestCase):
         for cp, bounds in [(checkpoint(36), constraint()), (checkpoint(1), constraint(4)),
                            ({'subtask_key': 'P1'}, constraint()), (checkpoint(True), constraint()),
                            (checkpoint(1), constraint(cid='P2.C1')), (checkpoint(1), None),
-                           (checkpoint(1), constraint() | {'condition_id': None})]:
+                           (checkpoint(1), {**constraint(), 'condition_id': None})]:
             self.assertFalse(checkpoint_precedes_contradiction(cp, bounds, 'P1'))
 
 
