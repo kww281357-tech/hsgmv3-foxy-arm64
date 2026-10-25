@@ -1,0 +1,37 @@
+{
+  "neutral": {
+    "mouthClose": 0.1,
+    "eyeBlinkLeft": 0.12,
+    "eyeBlinkRight": 0.105,
+    "eyeSquintLeft": 0.06,
+    "eyeSquintRight": 0.06
+  },
+  "smile": {
+    "mouthSmileLeft": 1.0,
+    "mouthSmileRight": 0.98,
+    "cheekSquintLeft": 0.95,
+    "cheekSquintRight": 0.92,
+    "eyeSquintLeft": 0.5,
+    "eyeSquintRight": 0.48,
+    "eyeBlinkLeft": 0.13,
+    "eyeBlinkRight": 0.12,
+    "jawOpen": 0.36,
+    "mouthUpperUpLeft": 0.46,
+    "mouthUpperUpRight": 0.44,
+    "mouthLowerDownLeft": 0.1,
+    "mouthLowerDownRight": 0.1
+  },
+  "cry": {
+    "browInnerUp": 0.72,
+    "browDownLeft": 0.24,
+    "browDownRight": 0.24,
+    "mouthFrownLeft": 0.72,
+    "mouthFrownRight": 0.72,
+    "mouthShrugLower": 0.45,
+    "eyeBlinkLeft": 0.25,
+    "eyeBlinkRight": 0.25,
+    "eyeSquintLeft": 0.22,
+    "eyeSquintRight": 0.22,
+    "jawOpen": 0.12
+  }
+}
