@@ -1,0 +1,281 @@
+{
+  "all_three_exported_GLB_index_streams_and_position_counts_equal": true,
+  "signatures": {
+    "neutral": [
+      {
+        "position_count": 1911,
+        "index_count": 9252,
+        "index_hash": "86c5b0a629bd3781aef7caff9a80787a501268cd422a1887e33316ad3b14f7c2"
+      },
+      {
+        "position_count": 1904,
+        "index_count": 9216,
+        "index_hash": "823861b6445eec9bdbf5817aa2a6f308fd9bbf459d697d68152f1edd1bec42fe"
+      },
+      {
+        "position_count": 1911,
+        "index_count": 9252,
+        "index_hash": "a303e222172135600efe3a8df1c95330304d7393145bd9b32d4099e1a398e772"
+      },
+      {
+        "position_count": 6625,
+        "index_count": 29640,
+        "index_hash": "f75b1333f334602b4bf2e62ff5039a7e9f89b4709e3e94acf55241f27bd6e8bb"
+      },
+      {
+        "position_count": 12925,
+        "index_count": 59688,
+        "index_hash": "1d104f354f2858c82a658b10e65504d120e4ba928cdfee7c99f2835d9335a9b7"
+      },
+      {
+        "position_count": 12905,
+        "index_count": 59592,
+        "index_hash": "c00c9f39f05337d3e21ef33c9f24913e4205b78859bfe7fb904837b5fff02ec4"
+      },
+      {
+        "position_count": 12700,
+        "index_count": 58656,
+        "index_hash": "0a29a97b5a1d3a7a2d900d3623d18e490fdd672c271dc311854fa2e521a1730f"
+      },
+      {
+        "position_count": 12700,
+        "index_count": 58656,
+        "index_hash": "f863741ba1bd176031c0fe6776ca1e55d6717b103876b2dff7f8ff135a1666c2"
+      },
+      {
+        "position_count": 46058,
+        "index_count": 206616,
+        "index_hash": "6ffbc622e2709e9b2e02f367ec0c7b4a5868719b6e6c1a6b7123fb22ffc4f59c"
+      },
+      {
+        "position_count": 4640,
+        "index_count": 24480,
+        "index_hash": "613bbebfec5fa1d356e532ae931861db8fe3903df5d84006a59c9136fd250afc"
+      },
+      {
+        "position_count": 520,
+        "index_count": 2304,
+        "index_hash": "dbe7b26c3823957b1ff942f399a8e9dff12d9ed7249c375a5aadd0600305d735"
+      },
+      {
+        "position_count": 1092,
+        "index_count": 4416,
+        "index_hash": "9f23cd65d217e4ba43b3db9459f18acb209fd4a26a2368f9abdb77648f920cb7"
+      },
+      {
+        "position_count": 1213,
+        "index_count": 5376,
+        "index_hash": "919531398ea0026c8f3596c2d01b6e9a6c223df84fc2139fb2c863a3f14e748a"
+      },
+      {
+        "position_count": 20673,
+        "index_count": 85440,
+        "index_hash": "a455bda4230e7c05f447778af3af5268735071dcf268fb83a1f246395391e9b1"
+      },
+      {
+        "position_count": 14564,
+        "index_count": 64224,
+        "index_hash": "545a8932ef80ba05b6e2b4185569b0388a99681310efc76603c5493e11260465"
+      },
+      {
+        "position_count": 25920,
+        "index_count": 103248,
+        "index_hash": "a4587a61ca58e525510355658f8c42cdb6bb095845dfbe8a7a66d96172c1e191"
+      },
+      {
+        "position_count": 13547,
+        "index_count": 49536,
+        "index_hash": "71ef6992addf309d3417b532e5fbecc9368e83404b829a30a0acfc7750862c31"
+      },
+      {
+        "position_count": 604,
+        "index_count": 2688,
+        "index_hash": "8b3b29b43ae18846b326c07ffc9057e4935b16d570f06445023f231ddbe352b1"
+      }
+    ],
+    "smile": [
+      {
+        "position_count": 1911,
+        "index_count": 9252,
+        "index_hash": "86c5b0a629bd3781aef7caff9a80787a501268cd422a1887e33316ad3b14f7c2"
+      },
+      {
+        "position_count": 1904,
+        "index_count": 9216,
+        "index_hash": "823861b6445eec9bdbf5817aa2a6f308fd9bbf459d697d68152f1edd1bec42fe"
+      },
+      {
+        "position_count": 1911,
+        "index_count": 9252,
+        "index_hash": "a303e222172135600efe3a8df1c95330304d7393145bd9b32d4099e1a398e772"
+      },
+      {
+        "position_count": 6625,
+        "index_count": 29640,
+        "index_hash": "f75b1333f334602b4bf2e62ff5039a7e9f89b4709e3e94acf55241f27bd6e8bb"
+      },
+      {
+        "position_count": 12925,
+        "index_count": 59688,
+        "index_hash": "1d104f354f2858c82a658b10e65504d120e4ba928cdfee7c99f2835d9335a9b7"
+      },
+      {
+        "position_count": 12905,
+        "index_count": 59592,
+        "index_hash": "c00c9f39f05337d3e21ef33c9f24913e4205b78859bfe7fb904837b5fff02ec4"
+      },
+      {
+        "position_count": 12700,
+        "index_count": 58656,
+        "index_hash": "0a29a97b5a1d3a7a2d900d3623d18e490fdd672c271dc311854fa2e521a1730f"
+      },
+      {
+        "position_count": 12700,
+        "index_count": 58656,
+        "index_hash": "f863741ba1bd176031c0fe6776ca1e55d6717b103876b2dff7f8ff135a1666c2"
+      },
+      {
+        "position_count": 46058,
+        "index_count": 206616,
+        "index_hash": "6ffbc622e2709e9b2e02f367ec0c7b4a5868719b6e6c1a6b7123fb22ffc4f59c"
+      },
+      {
+        "position_count": 4640,
+        "index_count": 24480,
+        "index_hash": "613bbebfec5fa1d356e532ae931861db8fe3903df5d84006a59c9136fd250afc"
+      },
+      {
+        "position_count": 520,
+        "index_count": 2304,
+        "index_hash": "dbe7b26c3823957b1ff942f399a8e9dff12d9ed7249c375a5aadd0600305d735"
+      },
+      {
+        "position_count": 1092,
+        "index_count": 4416,
+        "index_hash": "9f23cd65d217e4ba43b3db9459f18acb209fd4a26a2368f9abdb77648f920cb7"
+      },
+      {
+        "position_count": 1213,
+        "index_count": 5376,
+        "index_hash": "919531398ea0026c8f3596c2d01b6e9a6c223df84fc2139fb2c863a3f14e748a"
+      },
+      {
+        "position_count": 20673,
+        "index_count": 85440,
+        "index_hash": "a455bda4230e7c05f447778af3af5268735071dcf268fb83a1f246395391e9b1"
+      },
+      {
+        "position_count": 14564,
+        "index_count": 64224,
+        "index_hash": "545a8932ef80ba05b6e2b4185569b0388a99681310efc76603c5493e11260465"
+      },
+      {
+        "position_count": 25920,
+        "index_count": 103248,
+        "index_hash": "a4587a61ca58e525510355658f8c42cdb6bb095845dfbe8a7a66d96172c1e191"
+      },
+      {
+        "position_count": 13547,
+        "index_count": 49536,
+        "index_hash": "71ef6992addf309d3417b532e5fbecc9368e83404b829a30a0acfc7750862c31"
+      },
+      {
+        "position_count": 604,
+        "index_count": 2688,
+        "index_hash": "8b3b29b43ae18846b326c07ffc9057e4935b16d570f06445023f231ddbe352b1"
+      }
+    ],
+    "cry": [
+      {
+        "position_count": 1911,
+        "index_count": 9252,
+        "index_hash": "86c5b0a629bd3781aef7caff9a80787a501268cd422a1887e33316ad3b14f7c2"
+      },
+      {
+        "position_count": 1904,
+        "index_count": 9216,
+        "index_hash": "823861b6445eec9bdbf5817aa2a6f308fd9bbf459d697d68152f1edd1bec42fe"
+      },
+      {
+        "position_count": 1911,
+        "index_count": 9252,
+        "index_hash": "a303e222172135600efe3a8df1c95330304d7393145bd9b32d4099e1a398e772"
+      },
+      {
+        "position_count": 6625,
+        "index_count": 29640,
+        "index_hash": "f75b1333f334602b4bf2e62ff5039a7e9f89b4709e3e94acf55241f27bd6e8bb"
+      },
+      {
+        "position_count": 12925,
+        "index_count": 59688,
+        "index_hash": "1d104f354f2858c82a658b10e65504d120e4ba928cdfee7c99f2835d9335a9b7"
+      },
+      {
+        "position_count": 12905,
+        "index_count": 59592,
+        "index_hash": "c00c9f39f05337d3e21ef33c9f24913e4205b78859bfe7fb904837b5fff02ec4"
+      },
+      {
+        "position_count": 12700,
+        "index_count": 58656,
+        "index_hash": "0a29a97b5a1d3a7a2d900d3623d18e490fdd672c271dc311854fa2e521a1730f"
+      },
+      {
+        "position_count": 12700,
+        "index_count": 58656,
+        "index_hash": "f863741ba1bd176031c0fe6776ca1e55d6717b103876b2dff7f8ff135a1666c2"
+      },
+      {
+        "position_count": 46058,
+        "index_count": 206616,
+        "index_hash": "6ffbc622e2709e9b2e02f367ec0c7b4a5868719b6e6c1a6b7123fb22ffc4f59c"
+      },
+      {
+        "position_count": 4640,
+        "index_count": 24480,
+        "index_hash": "613bbebfec5fa1d356e532ae931861db8fe3903df5d84006a59c9136fd250afc"
+      },
+      {
+        "position_count": 520,
+        "index_count": 2304,
+        "index_hash": "dbe7b26c3823957b1ff942f399a8e9dff12d9ed7249c375a5aadd0600305d735"
+      },
+      {
+        "position_count": 1092,
+        "index_count": 4416,
+        "index_hash": "9f23cd65d217e4ba43b3db9459f18acb209fd4a26a2368f9abdb77648f920cb7"
+      },
+      {
+        "position_count": 1213,
+        "index_count": 5376,
+        "index_hash": "919531398ea0026c8f3596c2d01b6e9a6c223df84fc2139fb2c863a3f14e748a"
+      },
+      {
+        "position_count": 20673,
+        "index_count": 85440,
+        "index_hash": "a455bda4230e7c05f447778af3af5268735071dcf268fb83a1f246395391e9b1"
+      },
+      {
+        "position_count": 14564,
+        "index_count": 64224,
+        "index_hash": "545a8932ef80ba05b6e2b4185569b0388a99681310efc76603c5493e11260465"
+      },
+      {
+        "position_count": 25920,
+        "index_count": 103248,
+        "index_hash": "a4587a61ca58e525510355658f8c42cdb6bb095845dfbe8a7a66d96172c1e191"
+      },
+      {
+        "position_count": 13547,
+        "index_count": 49536,
+        "index_hash": "71ef6992addf309d3417b532e5fbecc9368e83404b829a30a0acfc7750862c31"
+      },
+      {
+        "position_count": 604,
+        "index_count": 2688,
+        "index_hash": "8b3b29b43ae18846b326c07ffc9057e4935b16d570f06445023f231ddbe352b1"
+      }
+    ]
+  }
+}

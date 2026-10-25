@@ -1,0 +1,21 @@
+{
+  "expressions": {
+    "neutral": {
+      "vertices": 145972,
+      "triangles": 280760,
+      "meshes": 13
+    },
+    "smile": {
+      "vertices": 145972,
+      "triangles": 280760,
+      "meshes": 13
+    },
+    "cry": {
+      "vertices": 145972,
+      "triangles": 280760,
+      "meshes": 13
+    }
+  },
+  "same_evaluated_topology_all_expressions": true,
+  "modifications": "hand bones only"
+}

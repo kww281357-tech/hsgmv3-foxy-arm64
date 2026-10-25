@@ -1,0 +1,39 @@
+{
+  "method": "Evaluated neutral mesh; hand/finger vertex groups >=0.5; BVH triangle overlaps against garment. This is a surface-intersection check, not a complete collision/inside-volume proof.",
+  "hands": {
+    "l": {
+      "selected_vertices": 6382,
+      "selected_faces": 6355,
+      "garment_triangle_intersections": 0,
+      "minimum_vertex_to_garment_distance_m": 0.0024445452727377415
+    },
+    "r": {
+      "selected_vertices": 6383,
+      "selected_faces": 6356,
+      "garment_triangle_intersections": 0,
+      "minimum_vertex_to_garment_distance_m": 0.002664952538907528
+    }
+  },
+  "finger_pair_surface_intersections": {
+    "l:index-middle": 0,
+    "l:index-ring": 0,
+    "l:index-pinky": 0,
+    "l:index-thumb": 0,
+    "l:middle-ring": 0,
+    "l:middle-pinky": 0,
+    "l:middle-thumb": 0,
+    "l:ring-pinky": 0,
+    "l:ring-thumb": 0,
+    "l:pinky-thumb": 0,
+    "r:index-middle": 0,
+    "r:index-ring": 0,
+    "r:index-pinky": 0,
+    "r:index-thumb": 0,
+    "r:middle-ring": 0,
+    "r:middle-pinky": 0,
+    "r:middle-thumb": 0,
+    "r:ring-pinky": 0,
+    "r:ring-thumb": 0,
+    "r:pinky-thumb": 0
+  }
+}

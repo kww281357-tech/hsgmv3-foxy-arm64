@@ -1,0 +1,17 @@
+{
+  "neutral": {
+    "filename": "adult_neutral.glb",
+    "bytes": 27643276,
+    "sha256": "d51934f336e4b9b91b64de4b84f4f2296f8ec01ccfbce108520322758c240558"
+  },
+  "smile": {
+    "filename": "adult_smile.glb",
+    "bytes": 27643248,
+    "sha256": "f867553202e27787b86897f26e6486579d913b65233a1ef4f944470d969185b6"
+  },
+  "cry": {
+    "filename": "adult_cry.glb",
+    "bytes": 27643228,
+    "sha256": "6bdc92bd0a130a39682616d70a8814c386de523c8c1e64ab9420925105c75013"
+  }
+}

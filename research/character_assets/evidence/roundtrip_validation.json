@@ -1,0 +1,74 @@
+{
+  "adult_neutral": {
+    "bytes": 27643276,
+    "sha256": "d51934f336e4b9b91b64de4b84f4f2296f8ec01ccfbce108520322758c240558",
+    "bounds_blender_zup": [
+      [
+        -0.2461571991443634,
+        -0.18974894285202026,
+        0.0
+      ],
+      [
+        0.24483782052993774,
+        0.11860455572605133,
+        1.5132863521575928
+      ]
+    ],
+    "embedded_images": 14,
+    "meshes": 13,
+    "import": "PASS",
+    "triangles": 280760,
+    "gltf_extensions": [
+      "KHR_materials_clearcoat",
+      "KHR_materials_specular"
+    ]
+  },
+  "adult_smile": {
+    "bytes": 27643248,
+    "sha256": "f867553202e27787b86897f26e6486579d913b65233a1ef4f944470d969185b6",
+    "bounds_blender_zup": [
+      [
+        -0.2461571991443634,
+        -0.18974894285202026,
+        0.0
+      ],
+      [
+        0.24483782052993774,
+        0.11860455572605133,
+        1.5132863521575928
+      ]
+    ],
+    "embedded_images": 14,
+    "meshes": 13,
+    "import": "PASS",
+    "triangles": 280760,
+    "gltf_extensions": [
+      "KHR_materials_clearcoat",
+      "KHR_materials_specular"
+    ]
+  },
+  "adult_cry": {
+    "bytes": 27643228,
+    "sha256": "6bdc92bd0a130a39682616d70a8814c386de523c8c1e64ab9420925105c75013",
+    "bounds_blender_zup": [
+      [
+        -0.2461571991443634,
+        -0.18974894285202026,
+        0.0
+      ],
+      [
+        0.24483782052993774,
+        0.11860455572605133,
+        1.5132863521575928
+      ]
+    ],
+    "embedded_images": 14,
+    "meshes": 13,
+    "import": "PASS",
+    "triangles": 280760,
+    "gltf_extensions": [
+      "KHR_materials_clearcoat",
+      "KHR_materials_specular"
+    ]
+  }
+}
