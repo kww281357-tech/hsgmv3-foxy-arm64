@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+cd "$(git rev-parse --show-toplevel)"
+exec "${HSGM_CHECK_PYTHON:-python3}" scripts/check_repo.py --staged
+
