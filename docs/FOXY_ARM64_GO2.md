@@ -15,8 +15,9 @@ package only subscribes to official Go2 telemetry and writes a local status file
 It never publishes cmd_vel, sport requests or low-level motor commands, changes
 sport mode, stands up, or arms the robot. DDS discovery and Foxy parameter-event traffic still occur.
 
-No real robot, ARM64 runtime, Python 3.8 interpreter, Docker engine or hardware
-acceleration was available in the cloud authoring environment. Build and robot
+No real robot, ARM64 runtime, Docker engine or hardware acceleration was
+available in the cloud authoring environment. A workspace-local real
+CPython3.8.20 x86_64 interpreter was later installed for offline verification. Docker build and robot
 communication remain **unverified**. Do not describe the Dockerfile as a built
 image. No model/API calls, data downloads, or actuation tests were performed.
 
