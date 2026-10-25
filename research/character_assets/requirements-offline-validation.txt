@@ -1,0 +1,3 @@
+# Separate research environment only; DO NOT install into Go2/ROS Python.
+# Blender scripts use Blender 4.3.2 bundled numpy/bpy/mathutils.
+numpy>=1.24,<3

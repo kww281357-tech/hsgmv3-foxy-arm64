@@ -1,0 +1,134 @@
+{
+  "pipeline/check_hand_geometry_v7.py": {
+    "original_relative_path": "game_character_refine_v5/check_hand_geometry_v7.py",
+    "sha256": "924bbd2f67029c4aeed3f93799e110a6a558f4b685e38527d1bcf9b0e0d5486d",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "pipeline/render_v7_smile.py": {
+    "original_relative_path": "game_character_refine_v5/render_v7_smile.py",
+    "sha256": "a12242c82d38311fee49f045c43bac4a13cb92feaa6ac427ba1881b0b89ef630",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "pipeline/validate_exported_topology_v7.py": {
+    "original_relative_path": "game_character_refine_v5/validate_exported_topology_v7.py",
+    "sha256": "b757fb406a5917cb5f26cd788226af118a23bf61c5213905fe2409b023aca94a",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "pipeline/refine_v7.py": {
+    "original_relative_path": "game_character_refine_v5/refine_v7.py",
+    "sha256": "18cbcc605b4bf56d16b7d9bf757a44802482a2a983a5d2693126a7995e1db58d",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "pipeline/validate_v7_scope.py": {
+    "original_relative_path": "game_character_refine_v5/validate_v7_scope.py",
+    "sha256": "7ddb261c0862944a94409fbb7d3bc4fa93b61553917c19724885fd7ed58482a8",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "pipeline/render_v7_hands.py": {
+    "original_relative_path": "game_character_refine_v5/render_v7_hands.py",
+    "sha256": "4cf335f651f85b6c3a0a6c58fc84b9d7cbf708c6bcb3632e64730ef8ccb8308d",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "pipeline/validate_v7_glbs.py": {
+    "original_relative_path": "game_character_refine_v5/validate_v7_glbs.py",
+    "sha256": "0f9a7fae215d824edbbc9c83292333d10b02085909c09c80e1f001d2d68d4734",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "pipeline/validate_v7_lower_body.py": {
+    "original_relative_path": "game_character_refine_v5/validate_v7_lower_body.py",
+    "sha256": "3f03dc1a8b2754865921ce3d3cd08f40374357a7f2fb177037bb94e6ed22c0fe",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "history/experiments/refine_v10_eyelid_G.py": {
+    "original_relative_path": "game_character_refine_v5/refine_v10_eyelid_G.py",
+    "sha256": "b00516f3dacedec5afde0a6098c75e3162e81b1585019bdfbe0de42f7c8b9571",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "history/experiments/strip_material_extensions_v10.py": {
+    "original_relative_path": "game_character_refine_v5/strip_material_extensions_v10.py",
+    "sha256": "097c33093011097b41d632ef9c106b1c55c89c983ecd2b9beabf7435835950ee",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "history/experiments/merge_v10_review_source.py": {
+    "original_relative_path": "game_character_refine_v5/merge_v10_review_source.py",
+    "sha256": "8afc6044999169ea9a5dc7a2191de2835655d545976e8e3c0f289cf2e0c78fcb",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "history/experiments/refine_v9_candidates.py": {
+    "original_relative_path": "game_character_refine_v5/refine_v9_candidates.py",
+    "sha256": "3252fa893b97ba54a1de49a07a9c6159f6cbd23a4a0c0c67f2cc7f1abadb6b3e",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "history/experiments/validate_v10_identity_scope.py": {
+    "original_relative_path": "game_character_refine_v5/validate_v10_identity_scope.py",
+    "sha256": "fb06215afeeab7c9e69eaf10bb74adabbe31948168452e9cd18a5bc3f3fa354b",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "history/experiments/refine_v5.py": {
+    "original_relative_path": "game_character_refine_v5/refine_v5.py",
+    "sha256": "e01823ae3ddc95a78b17e01b30dfa84b7bb90d95198f2d85ee6bd19c90f132bc",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "history/experiments/refine_v8_candidates.py": {
+    "original_relative_path": "game_character_refine_v5/refine_v8_candidates.py",
+    "sha256": "c0effa28f1d4c2faec2de8a8d49829b5ce3fec8f0ea56e663cbf5bf35bb759ee",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "history/experiments/refine_v10_lashes_H.py": {
+    "original_relative_path": "game_character_refine_v5/refine_v10_lashes_H.py",
+    "sha256": "54683d4f4e66c13a47b862582bdda260cde9d1580b9885cf131f2035b9c748db",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "history/experiments/refine_v10_hair_F.py": {
+    "original_relative_path": "game_character_refine_v5/refine_v10_hair_F.py",
+    "sha256": "585825005c447c308557b23b5c06857aafb68493551859beefe52f07463dbf26",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "history/experiments/refine_v6.py": {
+    "original_relative_path": "game_character_refine_v5/refine_v6.py",
+    "sha256": "75cbbf996fecbb6d5cb7b0085b4af98daceb7c6eecad81b468ec70725678d4d1",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "history/v4/export_from_editable.py": {
+    "original_relative_path": "game_character_refine_v5/source/code/export_from_editable.py",
+    "sha256": "8eeca90a780776427a2b57e28b589ddcedf7c5c082c9d267aa5a0b535f59c42d",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "history/v4/check_exports.py": {
+    "original_relative_path": "game_character_refine_v5/source/code/check_exports.py",
+    "sha256": "16f035dd99a878081d427d678c62341a9b89fb00e2e471ae6d93349f4e3a194e",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "history/v4/render_full.py": {
+    "original_relative_path": "game_character_refine_v5/source/code/render_full.py",
+    "sha256": "b3d9928be25dbd96cb116398947248ad0ee9a4dbcc7cdead48f2d0d277bf132c",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  },
+  "history/v4/refine_character.py": {
+    "original_relative_path": "game_character_refine_v5/source/code/refine_character.py",
+    "sha256": "ba27b576cc3bf3cd84e3a04b4b76388a126512605fd8767b20e7d33dfb957f5d",
+    "copied_without_modification": true,
+    "authored_code_license": "CC0-1.0"
+  }
+}

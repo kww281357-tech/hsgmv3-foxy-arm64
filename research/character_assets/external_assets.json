@@ -1,0 +1,40 @@
+{
+  "scope": "External local prerequisites NOT included in source-only repository",
+  "required_for_build": [
+    "v6/editable_character_v6.blend",
+    "v6/adult_neutral.object_config.json"
+  ],
+  "optional_for_comparison_render": [
+    "v6/adult_neutral.glb"
+  ],
+  "files": {
+    "v6/editable_character_v6.blend": {
+      "bytes": 50411728,
+      "sha256": "ab64859a021762a948141dbf60ff932be188de0aba0c5939951fe71057ac677a",
+      "license": "CC0-1.0 derived asset/config",
+      "acquisition": "Existing project v7 editable-and-code delivery contains v6 input; no public downloadable URL asserted"
+    },
+    "v6/adult_neutral.object_config.json": {
+      "bytes": 543,
+      "sha256": "5705c47ee49997416ea4b1299bf22086ce8260f516c23a9d9a1c963959924a39",
+      "license": "CC0-1.0 derived asset/config",
+      "acquisition": "Existing project v7 editable-and-code delivery contains v6 input; no public downloadable URL asserted"
+    },
+    "v6/adult_neutral.glb": {
+      "bytes": 27643276,
+      "sha256": "41e6f9b3b586a443da23bdb82d4c42ab5adbc84a939db2c54264183943618f36",
+      "license": "CC0-1.0 derived asset/config",
+      "acquisition": "Existing project v7 editable-and-code delivery contains v6 input; no public downloadable URL asserted"
+    }
+  },
+  "earlier_chain": {
+    "v4_input": "source/expression_master_v4.blend",
+    "sha256": "ad926ea4a8f9eaa5b41e88b17dd64b3d6e5f6b6be4a7b9516733e2ccbd4da841",
+    "stages": [
+      "v4 editable -> refine_v5.py -> output/editable_character_v5.blend",
+      "refine_v6.py -> v6/editable_character_v6.blend",
+      "refine_v7.py -> v7/*.glb"
+    ],
+    "limitation": "Base creation v1-v3 scripts are not present in the recovered source. Official MPFB assets alone do NOT reproduce the exact customized v4 file."
+  }
+}

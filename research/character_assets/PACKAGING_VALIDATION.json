@@ -1,0 +1,12 @@
+{
+  "ast_parsed_python_files": 24,
+  "packaging_unit_tests_passed": 4,
+  "real_external_v6_inputs_hash_verified": true,
+  "missing_external_asset_fails_explicitly": true,
+  "new_generation_or_render_executed": false,
+  "blender_rebuild_executed_for_this_upload": false,
+  "source_only_scan_passed": true,
+  "no_private_absolute_workspace_paths": true,
+  "secret_pattern_scan": "limited patterns only; publisher should independently scan",
+  "historical_reports_not_regenerated": true
+}
