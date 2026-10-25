@@ -6,6 +6,12 @@
 > **这是只读部署基础，不是完成的真机自主导航系统。没有已构建的 ARM64 镜像。**
 > 默认不连接机器人、不发运动命令；Foxy 已停止支持，Jetson GPU 镜像须匹配实际 L4T 版本。
 
+## 三个独立模块
+
+- **Go2 部署与仿真**：下方入口；Python 3.8 / Foxy，默认只读遥测。
+- **问路导航研究**：[research/blue_help_navigation](research/blue_help_navigation/README.md)；默认采用既有 GAME v7 人物（GLB 外置），独立 Python 3.9+ / Habitat CPU 环境，不进入 Go2 Docker，不连接真机。该模块有自己的依赖、测试、状态与来源说明。
+- **游戏人物生产代码**：[research/character_assets](research/character_assets/README.md)；既有人物的制作、修改、导出与检查源码，不重新制作模型；照片、模型大文件与私有资产留在仓库外。
+
 ## 从这里开始
 
 1. [目录、运行入口与验证矩阵](docs/PROJECT_GUIDE.md)
@@ -25,7 +31,9 @@
 
 物理仿真和真实消息序列化已通过；DDS 实际收发受云端策略阻塞。ARM64 镜像构建、Jetson GPU、实机、完整导航仍未验证。视频、日志、模型资产和数据不进入 Git 仓库。
 
-# HSGM v3
+## 原 v3 研究说明（保留）
+
+以下仅用于原 Habitat/VLM 研究环境，不是 Go2 Docker 的启动步骤。新读者先按上方模块索引选择环境。
 
 HSGM v3 独立代码仓库，用于分支开发和 agent 协作。初始源码来自本机现有 v3 工作目录；不继承上层仓库历史。原始文件哈希记录于 `docs/SOURCE_SNAPSHOT.json`。
 
