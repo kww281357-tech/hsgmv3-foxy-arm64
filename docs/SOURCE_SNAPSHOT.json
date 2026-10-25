@@ -1,0 +1,34 @@
+{
+  "description": "Initial v3 code snapshot; sha256 values identify unchanged source/config files.",
+  "files": {
+    "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/agent/agent.py": "aa0e9cc43c55089ba1bc5ade5b7c2eca07b857833d823fb3e1f73a06158d419d",
+    "src/agent/recovery.py": "6922e28520bc707be075c3e2d12b76634735da0939cfb00ae8d2662e379d5300",
+    "src/agent/route_guard.py": "dfe8ae75ffcd142606afb51cc06400d11a1b0eb148d9fd7880bf5e8d8b3e7123",
+    "src/mapper.py": "3c7f288ff7966415b10f32325fb522cc94e0c54e3e145ca8d62f72d018e24f3f",
+    "src/mapping_utils/geometry.py": "9ef27e522aba155e2c410a028c043b3a3b2e048d8df6f966c0f1a2605e46b16e",
+    "src/mapping_utils/path_planning.py": "fa48209e769fd1740281026672315921ee63b0c81bf4ded7003297be8b199ac2",
+    "src/mapping_utils/preprocess.py": "edab2f6e4a710b4e18027d8e2c54ca8bf9335a0d716b07d501f85207b8f730ff",
+    "src/mapping_utils/projection.py": "a946e799bc3fc44d2cde15fe0829597d429dbcb76d25afee8cb0834f7a72a427",
+    "src/mapping_utils/transform.py": "a799c3034787724824dd3c269dbdf1728950b621f32828bfdc6b6a06d649c6bf",
+    "src/mem0_preflight.py": "be1e88b114b2f1d42bdccff3b01f358f928d20cdc79c20ee1a5786cae2cbf91d",
+    "src/navigation_contracts.py": "f6d61d2a1666115e09ed1a6908ea0287827aff4b6b8755b4cb04ab463300e2f0",
+    "src/navigation_control.py": "a96266ba3b5cb699ec26b3c09b82217e25f027543e29d8c1116e322607be9470",
+    "src/navigation_memory.py": "45d61c4dd8edaf8dd2a77927f8b4285b1fd320de851bbf82171313243c3b7871",
+    "src/navigation_policy.py": "3036dfaba930fac9b1c833857abd45b52754e51cdc304c6bd343db0839c44fa9",
+    "src/observation_cache.py": "c3898e7d1825ae5f26db67db4f6f27877cbf885bceaa4a5962960da915820aa7",
+    "src/progress_watchdog.py": "0560b3042b77956a209c81fbd3c2e61e215f42143e3c1e91209e7b0d485b03f1",
+    "src/route_contract_preflight.py": "4d633d8947dd7520df9b10e625b4fba6e96d49ab06e81faba4be9e059c54d84e",
+    "src/run_experiments.py": "54d73bd131c6310b2522ae583cdbb46c6f81076899d1b574807124077c8712d0",
+    "src/runtime_budget.py": "75319314f3269ba65c9043ff2a5c350227afcf9967cc3ded708e17a90d01578b",
+    "src/segmentation/instance_segmentation.py": "f203f4ad2091f5a40352f56ba46eed15f53cdd9aad42e013c6e23cd8dbd8b1d4",
+    "src/segmentation/object_list.py": "d7af9c8fb00fbfcdb4a7c76b69a628af1e2ba5cea26563f2108b9201623b411f",
+    "src/simWrapper.py": "27c9e0a5cc45ac62b2d52f10ee49461d7119c1266ad51ac0773fba9b2515220f",
+    "src/spatial_state.py": "656a944523f6799e7f70d852724deec2f2a4b5b1a43220282b3debf09a1a9ab4",
+    "src/utils.py": "de7c0615eef2486a0a610f331e916f315bda37b1b7c962484274c85980857be4",
+    "src/waypoint_navigation.py": "e64967f576099fc23fd783bb4a194afd6819db4adadb15c3f8f38068b160c881",
+    "config/objnav_test.yaml": "f3f947c0ba037942aede6286b4c42e15a46d54cfde9ba16f51dcd767a0732796",
+    "config/vlnce_test.yaml": "efca98ef38a36deda145e5dcdf330842a045f1555d2056f6acf10d77ae14733e"
+  }
+}
+
