@@ -1,0 +1,5 @@
+{
+  "method": "Direct exported GLB base mesh POSITION arrays, local glTF Y < 1.1 m",
+  "vertices_checked": 21378,
+  "all_three_positions_bitwise_equal": true
+}
