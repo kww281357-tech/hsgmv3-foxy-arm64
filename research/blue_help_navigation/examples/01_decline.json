@@ -1,0 +1,10 @@
+{
+  "intent": "NAVIGATE",
+  "offer_choice": "decline",
+  "offer_id": "SYNTHETIC_O1",
+  "candidate_id": "SYNTHETIC_A",
+  "uncertainty": "low",
+  "evidence_ids": ["SYNTHETIC_OBS1", "SYNTHETIC_CAND_A"],
+  "short_reason": "The verified candidate matches the instruction, so I do not need help right now.",
+  "question": null
+}
