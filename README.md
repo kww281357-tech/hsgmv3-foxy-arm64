@@ -1,9 +1,29 @@
-# HSGM v3 — Foxy ARM64 / Go2 EDU staging
+# HSGM v3 · Go2 EDU · Ubuntu 20.04 / ROS 2 Foxy
 
-> New independent port from jkffj54/hsgmv3 @ 3a0a6558a5a485bca7e0793461b9822060b392eb. Original repository unchanged.
-> **Read-only deployment foundation, not completed real-robot navigation.** Docker build, ARM64 runtime and robot communication are not yet verified.
+本分支 `feature/go2-simulation` 汇总原 v3、Python 3.8 适配、ARM64 Docker 构建配方、只读 Go2 遥测和 CPU 仿真验证代码。
+原仓库 `jkffj54/hsgmv3` 保持不变；本仓库保持私有。`main` 尚未合并，使用本分支查看和下载完整代码。
 
-See [Foxy ARM64 Go2 build, network and limitations](docs/FOXY_ARM64_GO2.md).
+> **这是只读部署基础，不是完成的真机自主导航系统。没有已构建的 ARM64 镜像。**
+> 默认不连接机器人、不发运动命令；Foxy 已停止支持，Jetson GPU 镜像须匹配实际 L4T 版本。
+
+## 从这里开始
+
+1. [目录、运行入口与验证矩阵](docs/PROJECT_GUIDE.md)
+2. [Ubuntu 20.04 / Foxy / ARM64 Docker 与 Go2 网络配置](docs/FOXY_ARM64_GO2.md)
+3. [Go2 MuJoCo CPU 物理仿真复现](docs/GO2_SIMULATION.md)
+4. [真实 Foxy 消息验证与 DDS 阻塞说明](docs/FOXY_SIMULATION_RUNTIME.md)
+5. [Python 3.8 移植验证](docs/PORT_VALIDATION.md)
+
+| 模块 | 位置 | 用途 |
+|---|---|---|
+| v3 导航研究源码 | `src/`, `config/` | 保留原项目；完整 Habitat/VLM 依赖不包含在遥测镜像中 |
+| Go2 ROS 包 | `ros2_ws/src/hsgm_go2_monitor/` | 只订阅遥测，不执行运动控制 |
+| ARM64 构建与网络 | `Dockerfile`, `compose.yaml`, `docker/` | 默认回环隔离，机器人 LAN/GPU 配置显式选择 |
+| 仿真与检查工具 | `scripts/` | 物理烟雾测试、消息序列化、受保护的 DDS 回放 |
+| 回归测试 | `tests/` | 既有离线测试与适配生命周期检查 |
+| 说明 | `docs/` | 复现、版本、来源和未验证边界 |
+
+物理仿真和真实消息序列化已通过；DDS 实际收发受云端策略阻塞。ARM64 镜像构建、Jetson GPU、实机、完整导航仍未验证。视频、日志、模型资产和数据不进入 Git 仓库。
 
 # HSGM v3
 
