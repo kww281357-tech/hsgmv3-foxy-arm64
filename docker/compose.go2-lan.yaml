@@ -1,0 +1,8 @@
+# Opt-in Linux trusted-robot-LAN mode. No host IP/firewall modification.
+services:
+  monitor:
+    network_mode: host
+    environment:
+      ROS_LOCALHOST_ONLY: "0"
+      GO2_INTERFACE: ${GO2_INTERFACE:?Set the verified robot-facing NIC}
+      ROS_DOMAIN_ID: ${ROS_DOMAIN_ID:-0}
