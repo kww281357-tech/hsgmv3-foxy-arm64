@@ -45,10 +45,15 @@ def check_staged():
         allowed = name in ALLOWED_ROOT_FILES
         if len(path.parts) > 1:
             allowed = path.suffix in ALLOWED_EXTENSIONS.get(path.parts[0], set())
+        research = len(path.parts) > 2 and path.parts[0] == 'research' and path.parts[1] in {'blue_help_navigation', 'character_assets'}
+        if research:
+            allowed = (path.suffix in {'.py', '.md', '.json', '.txt', '.toml', '.sh', '.yml', '.yaml', '.obj', '.mtl'}
+                       or path.name in {'Makefile', '.gitignore', 'HSGMV3_LICENSE', 'BLUE_DUMMY_LICENSE'})
         if name in {'docker/Dockerfile.jetson-base', '.githooks/pre-commit', 'ros2_ws/src/hsgm_go2_monitor/resource/hsgm_go2_monitor'}:
             allowed = True
         if (not allowed or mode not in {'100644', '100755'} or stage != '0'
-                or any(part.startswith('.') for part in path.parts[1:])
+                or any(part.startswith('.') and not (research and part == '.gitignore' and part == path.name)
+                       for part in path.parts[1:])
                 or any(part in {'__pycache__', 'results', 'data', 'ckpt', 'logs'} for part in path.parts)
                 or '.bak' in path.name or '.local.' in path.name):
             raise ValueError('Disallowed staged file: ' + name)
