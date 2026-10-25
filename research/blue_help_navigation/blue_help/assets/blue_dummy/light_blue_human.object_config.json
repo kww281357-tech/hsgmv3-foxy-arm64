@@ -1,0 +1,6 @@
+{
+  "render_asset": "light_blue_human.obj",
+  "collision_asset": "light_blue_human.obj",
+  "up": [0.0, 1.0, 0.0],
+  "front": [0.0, 0.0, -1.0]
+}
