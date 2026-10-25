@@ -1,0 +1,120 @@
+agent:
+  radius: 0.1
+  initial_position: [7.40658, -0.53553, 0.92098]
+  initial_rotation: [0, 0.53996, 0, 0.84169]
+camera:
+  height: 1.2
+  fov: 135.0
+  pitch: -30.0
+  min_depth: 0.5
+  max_depth: 50.0
+  res_factor: 2
+env:
+  max_steps: 200
+  max_episode_seconds: 3200
+  max_model_requests: 96
+  success_threshold: 3.0
+  name: 'r2r'
+memory:
+  enabled: false
+  backend: local
+  storage_path: ../results/navigation_memory
+  user_id: hsgm_navigation
+  agent_id: hsgm
+navigation:
+  # Geometry-based physical recovery and bounded local endpoint ownership.
+  habitat_control_enabled: true
+  spatial_fast_enabled: true
+  endpoint_session_max_calls: 6
+  endpoint_session_max_looks: 2
+  endpoint_session_max_approaches: 3
+  habitat_max_verification_calls_per_subtask: 12
+  enable_subtask_decomposition: false
+  task_visual_enabled: true
+  verifier_dino_sam3_enabled: true
+  task_visual_max_extra_terms: 16
+  task_visual_max_terms: 16
+  verification_evidence_enabled: true
+  verification_frame_cache_size: 48
+  verifier_event_max_frames: 4
+  verifier_fixed_bev: true
+  verifier_candidate_crops: 4
+  verifier_max_candidate_crops: 4
+  planner_candidate_crops: 2
+  planner_max_candidate_crops: 2
+  planner_view_mode: separate
+  planner_history_frames: 1
+  verifier_history_frames: 4
+  verifier_use_bev: false
+  planner_history_frame_width: 280
+  planner_history_turns_with_images: 1
+  planner_history_actions: 8
+  memory_subtask_start_only: true
+  verifier_direct_correction: true
+  verifier_return_control_to_planner: false
+  verifier_auto_reverify: true
+  soft_stop_on_verifier_budget: false
+  require_strict_doorway_checks: true
+  require_strict_stair_landing: true
+  require_strict_target_id: true
+  require_endpoint_grounding: true
+  endpoint_max_distance_m: 1.5
+  endpoint_between_max_distance_m: 2.0
+  endpoint_confirmation_max_turns: 2
+  endpoint_relocalization_max_turns: 2
+  enable_wrong_path_rollback: true
+  rollback_step_threshold: 70
+  max_rollbacks_per_subtask: 2
+  model_request_timeout_s: 180
+  model_max_retries: 2
+  verifier_max_retries: 2
+  verifier_max_output_tokens: 1536
+  max_grounding_vetoes: 0
+  arrival_check_enabled: true
+  arrival_probe_max_calls: 12
+  arrival_probe_near_distance_m: 2.0
+  arrival_precision_step_m: 0.20
+  arrival_probe_min_interval_steps: 8
+  arrival_probe_min_distance_m: 0.20
+  arrival_probe_min_turn_degrees: 30
+  arrival_probe_observation_interval_steps: 16
+  dead_end_window_steps: 10
+  rollback_max_path_m: 8.0
+  rollback_position_tolerance: 0.15
+  rollback_height_tolerance_m: 0.15
+  rollback_heading_tolerance_deg: 5
+  rollback_max_steps: 40
+  rollback_total_step_budget: 60
+  rollback_max_total_attempts: 3
+  # Simulator-geometry backend: physical reachability, not sensor-only VLN.
+  waypoint_grid_m: 0.25
+  waypoint_min_distance_m: 0.25
+  waypoint_margin_m: 0.03
+  waypoint_candidate_limit: 96
+  waypoint_display_limit: 24
+  waypoint_snap_xy_m: 0.25
+  waypoint_snap_z_m: 0.45
+  waypoint_max_route_m: 5.0
+  waypoint_max_detour_ratio: 1.8
+  route_sample_step_m: 0.05
+  route_height_tolerance_m: 0.25
+  route_xy_tolerance_m: 0.05
+  max_step_height_m: 0.35
+  path_arrival_tolerance_m: 0.08
+  forward_step_m: 0.50
+  precision_step_m: 0.35
+  max_no_progress_steps: 24
+  max_observation_turns_without_motion: 8
+  waypoint_max_execution_steps: 48
+  waypoint_max_alignment_turns: 8
+  stair_reverse_tolerance_m: 0.25
+  stair_enter_height_m: 0.12
+  stair_min_progress_m: 0.25
+  stair_landing_observations: 2
+  stair_landing_area_m2: 0.30
+  max_verifier_checks_per_subtask: 8
+  max_verifier_corrections_per_subtask: 6
+  branch_constraints_enabled: true
+sim:
+  allow_slide: false
+
