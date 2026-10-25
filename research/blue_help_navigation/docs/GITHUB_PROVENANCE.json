@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-25T07:03:24.459877+00:00",
+  "purpose": "Authorized read-only GitHub source copy for independent blue-dummy project; not Library materialization or recovery.",
+  "sources": [
+    {
+      "repository": "jkffj54/habitat-blue-dummy",
+      "commit": "1dcaf129585da462a4bad051016977c1cba079e8",
+      "tree": "e6366b4f6b2f16f43aea12f97264d1a91d02fc58"
+    },
+    {
+      "repository": "jkffj54/hsgmv3",
+      "commit": "3a0a6558a5a485bca7e0793461b9822060b392eb",
+      "tree": "3b77cc57bb70b82ffda4003efe494e5c6c391a5e"
+    }
+  ],
+  "retrieval": "Connected GitHub fetch_file, explicit fixed commit, base64 raw file bytes. No source scripts executed; no repository modified or pushed; no Library requested.",
+  "files": [
+    {
+      "repo": "habitat-blue-dummy",
+      "path": "README.md",
+      "commit": "1dcaf129585da462a4bad051016977c1cba079e8",
+      "git_blob_sha": "469499397fcf598e8db1470095f51e2c01fac1bf",
+      "size": 4635,
+      "source_url": "https://github.com/jkffj54/habitat-blue-dummy/blob/1dcaf129585da462a4bad051016977c1cba079e8/README.md",
+      "local_path": "README.md",
+      "verified_git_blob_sha": "469499397fcf598e8db1470095f51e2c01fac1bf",
+      "sha256": "884698b14666f6bf356fdc1586361843d315e01e17cc31c4d89575f21543a180",
+      "verification": "PASS: original raw byte length and Git blob SHA-1 match GitHub fixed-commit tree"
+    },
+    {
+      "repo": "habitat-blue-dummy",
+      "path": "LICENSE",
+      "commit": "1dcaf129585da462a4bad051016977c1cba079e8",
+      "git_blob_sha": "d44b5a353dfaa51c1699026da9e3dc18c785d2b9",
+      "size": 1067,
+      "source_url": "https://github.com/jkffj54/habitat-blue-dummy/blob/1dcaf129585da462a4bad051016977c1cba079e8/LICENSE",
+      "local_path": "LICENSE",
+      "verified_git_blob_sha": "d44b5a353dfaa51c1699026da9e3dc18c785d2b9",
+      "sha256": "d5570b068c2b3a17845d88e569c496dd4a1c2f021d0a2b834beb7c17e694a014",
+      "verification": "PASS: original raw byte length and Git blob SHA-1 match GitHub fixed-commit tree"
+    },
+    {
+      "repo": "habitat-blue-dummy",
+      "path": "Data/Custom-Human-Dataset/light_blue_human.obj",
+      "commit": "1dcaf129585da462a4bad051016977c1cba079e8",
+      "git_blob_sha": "34a8e064dbb7a3b88b23395508f97204bd98a10c",
+      "size": 16421,
+      "source_url": "https://github.com/jkffj54/habitat-blue-dummy/blob/1dcaf129585da462a4bad051016977c1cba079e8/Data/Custom-Human-Dataset/light_blue_human.obj",
+      "local_path": "Data/Custom-Human-Dataset/light_blue_human.obj",
+      "verified_git_blob_sha": "34a8e064dbb7a3b88b23395508f97204bd98a10c",
+      "sha256": "fc1eb7ac2fe38cf525e7e5d759fefd4b108f2ac299c15a7cb5ec163c22b1d8a5",
+      "verification": "PASS: original raw byte length and Git blob SHA-1 match GitHub fixed-commit tree"
+    },
+    {
+      "repo": "habitat-blue-dummy",
+      "path": "Data/Custom-Human-Dataset/light_blue_human.mtl",
+      "commit": "1dcaf129585da462a4bad051016977c1cba079e8",
+      "git_blob_sha": "8d0313981b2971a4912502ece3430ba558f1a7ec",
+      "size": 134,
+      "source_url": "https://github.com/jkffj54/habitat-blue-dummy/blob/1dcaf129585da462a4bad051016977c1cba079e8/Data/Custom-Human-Dataset/light_blue_human.mtl",
+      "local_path": "Data/Custom-Human-Dataset/light_blue_human.mtl",
+      "verified_git_blob_sha": "8d0313981b2971a4912502ece3430ba558f1a7ec",
+      "sha256": "8118150ac2a47ca2e50f4df17e2d5519e1d40910a88999cc4af8082231d95ccb",
+      "verification": "PASS: original raw byte length and Git blob SHA-1 match GitHub fixed-commit tree"
+    },
+    {
+      "repo": "habitat-blue-dummy",
+      "path": "Data/Custom-Human-Dataset/light_blue_human.object_config.json",
+      "commit": "1dcaf129585da462a4bad051016977c1cba079e8",
+      "git_blob_sha": "62009fbc5e81b6e16aa2211ba73b42abdcffc3a1",
+      "size": 143,
+      "source_url": "https://github.com/jkffj54/habitat-blue-dummy/blob/1dcaf129585da462a4bad051016977c1cba079e8/Data/Custom-Human-Dataset/light_blue_human.object_config.json",
+      "local_path": "Data/Custom-Human-Dataset/light_blue_human.object_config.json",
+      "verified_git_blob_sha": "62009fbc5e81b6e16aa2211ba73b42abdcffc3a1",
+      "sha256": "db1b704b84ab2c055270a3f6778892f2eecd061adcf8f6b30aeaba97ba0841ac",
+      "verification": "PASS: original raw byte length and Git blob SHA-1 match GitHub fixed-commit tree"
+    },
+    {
+      "repo": "habitat-blue-dummy",
+      "path": "Data/Custom-Human-Dataset/human_motion_zsNo4HB9uLZ.json",
+      "commit": "1dcaf129585da462a4bad051016977c1cba079e8",
+      "git_blob_sha": "9bf095aa5dd06e7eea9acca4254dbf3e0f59473f",
+      "size": 265966,
+      "source_url": "https://github.com/jkffj54/habitat-blue-dummy/blob/1dcaf129585da462a4bad051016977c1cba079e8/Data/Custom-Human-Dataset/human_motion_zsNo4HB9uLZ.json",
+      "local_path": "Data/Custom-Human-Dataset/human_motion_zsNo4HB9uLZ.json",
+      "verified_git_blob_sha": "9bf095aa5dd06e7eea9acca4254dbf3e0f59473f",
+      "sha256": "406dcb77878204b9f1be38944d50a8c942f303cfba3e71751b07acee30e5c9de",
+      "verification": "PASS: original raw byte length and Git blob SHA-1 match GitHub fixed-commit tree"
+    },
+    {
+      "repo": "habitat-blue-dummy",
+      "path": "scripts/explore_custom_dummies.py",
+      "commit": "1dcaf129585da462a4bad051016977c1cba079e8",
+      "git_blob_sha": "422e9a2c683cb88e5124cd35cf88af3c6975e994",
+      "size": 8047,
+      "source_url": "https://github.com/jkffj54/habitat-blue-dummy/blob/1dcaf129585da462a4bad051016977c1cba079e8/scripts/explore_custom_dummies.py",
+      "local_path": "scripts/explore_custom_dummies.py",
+      "verified_git_blob_sha": "422e9a2c683cb88e5124cd35cf88af3c6975e994",
+      "sha256": "4e0df196cf80a0ac2a15ff274779e2d293d525ff9c8228fe19fbd52df9cd6ca4",
+      "verification": "PASS: original raw byte length and Git blob SHA-1 match GitHub fixed-commit tree"
+    },
+    {
+      "repo": "hsgmv3",
+      "path": "LICENSE",
+      "commit": "3a0a6558a5a485bca7e0793461b9822060b392eb",
+      "git_blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "source_url": "https://github.com/jkffj54/hsgmv3/blob/3a0a6558a5a485bca7e0793461b9822060b392eb/LICENSE",
+      "local_path": "hsgmv3_reference/LICENSE",
+      "verified_git_blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "verification": "PASS: original raw byte length and Git blob SHA-1 match GitHub fixed-commit tree"
+    },
+    {
+      "repo": "hsgmv3",
+      "path": "src/navigation_control.py",
+      "commit": "3a0a6558a5a485bca7e0793461b9822060b392eb",
+      "git_blob_sha": "24c56b72ac4403551565f313f3d60537888e9d97",
+      "size": 21094,
+      "source_url": "https://github.com/jkffj54/hsgmv3/blob/3a0a6558a5a485bca7e0793461b9822060b392eb/src/navigation_control.py",
+      "local_path": "hsgmv3_reference/src/navigation_control.py",
+      "verified_git_blob_sha": "24c56b72ac4403551565f313f3d60537888e9d97",
+      "sha256": "4e9e768e9348ab29c309d1d2458c19f7fff05989e361e1731db6c32bd47b4726",
+      "verification": "PASS: original raw byte length and Git blob SHA-1 match GitHub fixed-commit tree"
+    },
+    {
+      "repo": "hsgmv3",
+      "path": "src/waypoint_navigation.py",
+      "commit": "3a0a6558a5a485bca7e0793461b9822060b392eb",
+      "git_blob_sha": "c8f760fb9fcafce9036125e5bdcf4ae72ea5e52e",
+      "size": 8995,
+      "source_url": "https://github.com/jkffj54/hsgmv3/blob/3a0a6558a5a485bca7e0793461b9822060b392eb/src/waypoint_navigation.py",
+      "local_path": "hsgmv3_reference/src/waypoint_navigation.py",
+      "verified_git_blob_sha": "c8f760fb9fcafce9036125e5bdcf4ae72ea5e52e",
+      "sha256": "5dfcd5ebf76265443e124ac74d0232b52d32af2cbe461eeb319baac6437f6f34",
+      "verification": "PASS: original raw byte length and Git blob SHA-1 match GitHub fixed-commit tree"
+    }
+  ],
+  "verification": "PASS: all 10 original files independently verified from local raw bytes against fixed-commit GitHub tree Git blob SHA-1 and byte length; SHA-256 also recorded."
+}

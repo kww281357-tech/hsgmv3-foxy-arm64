@@ -1,0 +1,65 @@
+{
+  "source_version": "0.4.1",
+  "default_helper": "game-v7",
+  "game_asset_external": true,
+  "game_asset_sha256": "d51934f336e4b9b91b64de4b84f4f2296f8ec01ccfbce108520322758c240558",
+  "unit_tests": {
+    "python3.9.23": {
+      "tests": 317,
+      "passed": 317,
+      "skipped": 0
+    },
+    "python3.12.14": {
+      "tests": 317,
+      "passed": 316,
+      "skipped": 1,
+      "skip": "actual Magnum absent from base interpreter"
+    }
+  },
+  "actual_game_microcheck": {
+    "radius_aabb_m": 0.3108022145272504,
+    "height_aabb_m": 1.5132863521575928,
+    "foot_offset_m": 0.0,
+    "proxy_radius_m": 0.32,
+    "proxy_height_m": 1.6,
+    "initial_distance_m": 0.85,
+    "first_forward_m": 0.25,
+    "second_forward_blocked": true,
+    "turned_away_ineligible": true,
+    "successful_answers": 1,
+    "remaining_answers": 2,
+    "duplicate_free": true,
+    "authenticated_api_calls": 0
+  },
+  "real_cpu_game_fixture": {
+    "responses": "canned_accept_then_stop",
+    "successfully_delivered_answers": 1,
+    "movement_m": 0.0,
+    "authenticated_api_calls": 0,
+    "public_privilege_checks_passed": true,
+    "benchmark_success": null,
+    "benchmark_spl": null,
+    "is_autonomous_navigation_result": false
+  },
+  "game_privileged_survey": {
+    "episode_id": "40",
+    "actual_walked_m": 18.938684981225524,
+    "forward_moves": 192,
+    "total_actions": 235,
+    "frames": 47,
+    "collisions": 0,
+    "human_proxy_rejections": 0,
+    "endpoint_error_m": 1.4901161193847656e-08,
+    "teleports_after_reset": 0,
+    "model_api_calls": 0,
+    "is_benchmark_result": false,
+    "all_scene_topology_proven": false
+  },
+  "live_probe_run": false,
+  "live_vlm_run": false,
+  "proof_hashes": {
+    "game_microcheck": "559927aeec9d0e53986123d85c1039355a4c93414dda46c63e03af6577a11278",
+    "game_final_fixture": "0b1f21d9bd120d839c0f18e4215d78579e33880fc1528eed623844875e6ce4e4",
+    "game_full_survey": "cd3284340407d5bcec3ef552c69420f567c357ae51423b3d9928eb48137a8b8e"
+  }
+}
